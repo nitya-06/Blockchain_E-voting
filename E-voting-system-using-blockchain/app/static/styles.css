@@ -1,0 +1,107 @@
+/* Base styles for dark theme */
+
+body {
+    background-color: #e2e2e2;
+    /* Dark background */
+    color: #323232;
+    /* Light text color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* Links */
+
+a {
+    color: #5b90c6;
+    /* Bright blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #323232;
+    background-color: #a7a7a7;
+}
+
+th,
+td {
+    border: 1px solid #444444;
+    text-align: left;
+    padding: 10px 17px;
+    border: 1px solid #5A5B5B;
+}
+
+th {
+    background-color: #353535;
+    color: #c5c4c4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+tr:hover {
+    background-color: #717070;
+}
+
+
+/* Add subtle hover effect */
+
+td:hover {
+    background-color: #898787;
+}
+
+
+/* Buttons */
+
+button {
+    background-color: #333333;
+    /* Darker button */
+    color: #ffffff;
+    border: 1px solid #555555;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #444444;
+    /* Slightly lighter on hover */
+}
+
+
+/* Form elements */
+
+input[type="text"],
+select {
+    background-color: #5C5C5C;
+    color: #ffffff;
+    border: 1px solid #373737;
+    padding: 8px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555555;
+}
